@@ -1,0 +1,5 @@
+Day 2: 
+  transform-origin style: This moves the origin of an object. By default it is 50% which is in the middle of the object, but 0% puts the 
+  origin on the left side of the object, and 100% puts it on the right side.
+  
+  transition style: This makes any changes happen over some interval in seconds.
