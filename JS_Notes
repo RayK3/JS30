@@ -3,3 +3,29 @@ Day 2:
   origin on the left side of the object, and 100% puts it on the right side.
   
   transition style: This makes any changes happen over some interval in seconds.
+Day 3:
+  So basically, this is teaching us to be able to put variables in our CSS. This is done
+  by creating a :root style and puting the variables in there. An example looks like this:
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+  So -- before a name indicates that it is a variable. This is then used in the actual tags liket his:
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
+  These have to be declared as a variable taking some sort of value.
+  
+  New event listener: 'change'
+    - I assume that this is called whenever an input is changed. Maybe it can only be listened
+    for on inputs?
+    
+  New event listener: 'mousemove'
+    - Is pretty self-explanatory, but just be aware of its existence.
+    
+  Reminder: a data attribute is something that you have made up.
+  
+  Using this.dataset will show you all of the attributes in a tag that are data attributes
