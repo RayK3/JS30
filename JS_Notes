@@ -29,3 +29,27 @@ Day 3:
   Reminder: a data attribute is something that you have made up.
   
   Using this.dataset will show you all of the attributes in a tag that are data attributes
+  
+  Day 4: Array Methods
+    -The filter method takes a function that needs to test the values in some way using logic. If they
+    are true, then they are saved into another array.
+    -Quick Tip: console.table() prints out a table.
+    
+    -the sort method takes a function that has two parameters. Then you need to use if/else statements to check
+    if one is let's say bigger than the other. If that is what you are looking for, return 1, else return -1.
+    The items will bubble up or down the list.
+    -This is a great place to use the ternary operator (?)
+    
+    -The reduce method takes three types of arguments. First, it takes the arguments to be used in the function:
+    with the running total variable first, followed by other needed variables. Next it takes the function that will 
+    save some sort of something into the running total. Then it takes the first value that you want your total to start at.
+  
+    -Can turn a node list into an array by using the Array.from() method
+    -Can use multiple array methods on the same array by using them on different lines.
+      ex: 
+        const de = links
+               .map(link => link.textContent);
+               .filter(streetName => streetName.includes('de'));
+               
+    -reduce is very very flexible. You can give it an empty object as the 'running total' and have it count up 
+    the instances of everything in the array.
