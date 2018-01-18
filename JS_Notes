@@ -40,9 +40,10 @@ Day 3:
     The items will bubble up or down the list.
     -This is a great place to use the ternary operator (?)
     
-    -The reduce method takes three types of arguments. First, it takes the arguments to be used in the function:
-    with the running total variable first, followed by other needed variables. Next it takes the function that will 
-    save some sort of something into the running total. Then it takes the first value that you want your total to start at.
+    The reduce method takes two types of arguments. First, it takes a function, which in turn can take 4 parameters. The
+    first one is the accumulator, to save the running values. And the last three are the same as forEach: 
+    element, index, array. The last argument that the reduce method takes is the value you want the accumulator to start at. If 
+    nothing is given in this parameter, then it will start at the first element of the array.
   
     -Can turn a node list into an array by using the Array.from() method
     -Can use multiple array methods on the same array by using them on different lines.
