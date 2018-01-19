@@ -54,3 +54,11 @@ Day 3:
                
     -reduce is very very flexible. You can give it an empty object as the 'running total' and have it count up 
     the instances of everything in the array.
+
+  Day 5: Flex Panel Styling
+     -You can set the display for something as flex, and it seems as if it will cause it to go horizontal
+     rather than vertical. 
+     -Then you can set the individual elements in the ^ larger one and set a style of flex: 1 to make them 
+     spread evenly. If you set one of them to 5 for example, it would take up 5 times as much room as the others.
+     
+     -the > selector in the styling selects all IMMEDIATE descendants of the elements specified before it.
