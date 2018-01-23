@@ -62,3 +62,12 @@ Day 3:
      spread evenly. If you set one of them to 5 for example, it would take up 5 times as much room as the others.
      
      -the > selector in the styling selects all IMMEDIATE descendants of the elements specified before it.
+     
+ Day 8: Fun with HTML5 Canvas
+     -You don't draw directly on the canvas element. You have to specify the context you want, whether it is 2d or 3d. 
+     -You can also set the canvas to the size of the window by setting canvas.width and canvas.height to window.width
+     and window.height respectively.
+     -There are a few configuration options for the canvas context. These are strokeStyle, lineJoin, and lineCap so far.
+     -Then you can begin a path using ctx.beginPath();
+     -an event in ctx has an offsetX and offsetY value which is the x and y coordinates
+     -ctx.globalCompositeOperation : search it up. Gives a lot of different options to drawing.
