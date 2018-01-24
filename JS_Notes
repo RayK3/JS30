@@ -71,3 +71,22 @@ Day 3:
      -Then you can begin a path using ctx.beginPath();
      -an event in ctx has an offsetX and offsetY value which is the x and y coordinates
      -ctx.globalCompositeOperation : search it up. Gives a lot of different options to drawing.
+     
+ Day 9: Helpful Dev Tools Tricks
+     -In the dev tools html section, you can right click on an element and select 'break on' and then 
+     attribute modifications to cause it to open the debugger after being requested to modify an attribute
+     -You can use %s and %i to interpolate into strings for console.log. This is very similar to what you have seen
+     in c.
+     -You can style text inside of the console.log by using %c before the text, and then passing in a string of styles.
+     -console.warn(), console.error(), and console.info() will give you a warning, an error, and an info text respectively
+     -console.assert(1 === 2, 'that is wrong'); This takes two arguments, a logic statement, and a string. If the statement
+     returns false, it will display the string.
+     -console.clear() clears the console.
+     -console.dir(p) gives you a drop down of the methods of an element
+     -You can group a bunch of console statements by using console.group('some parameter') at the beginning of the grouped
+     section, and console.groupEnd('the same some parameter') at the end of the grouped section
+        -starting with console.groupCollapsed() sets their default to be in a closed drop down menu
+     -console.count('steve') counts how many times the argument was used in the dom or console
+     -console.time('fetching data') starts a timer and prints the string to the screen. Then console.timeEnd('fetching data')
+     ends the timer and prints the elapsed time to the screen.
+     
