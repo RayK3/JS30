@@ -90,3 +90,5 @@ Day 3:
      -console.time('fetching data') starts a timer and prints the string to the screen. Then console.timeEnd('fetching data')
      ends the timer and prints the elapsed time to the screen.
      
+ Day 10:
+     
