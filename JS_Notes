@@ -90,5 +90,17 @@ Day 3:
      -console.time('fetching data') starts a timer and prints the string to the screen. Then console.timeEnd('fetching data')
      ends the timer and prints the elapsed time to the screen.
      
- Day 11:
+ Day 14: Copy vs. Reference
+     -Just like in C++, numbers, and booleans are pass by value, and arrays and objects are pass by reference.
+     -Unlike in C++ though, strings are pass by value in JS, so they aren't really an array of characters anymore.
+     -So to copy an array, you can just call slice on the whole array, with no arguments. This 'slices' the 
+     entire array and returns it
+     -or you can do this: array2 = [].concat(array1);
+     -or finally, this: array2 = [... array1] //this is a spread
+     -or finally finally, this: array2 = Array.from(array1);//using the array prototype
+     
+     -to copy an object, you can use:
+        -const object2 = Object.assign({}, object1, {number: 99}); //this changes the number property to 99
+     -***Object.assign is only one level deep. If you try to change a copy of an object on the second level,
+     then it will change that level in the original object too.
      
