@@ -104,3 +104,14 @@ Day 3:
      -***Object.assign is only one level deep. If you try to change a copy of an object on the second level,
      then it will change that level in the original object too.
      
+ Day 15: Local Storage
+     -By default, a form will refresh the page when it is submitted, so it is useful to use e.preventDefault()
+     in the callback function for a 'submit' event listener
+     -In the callback function for an event listener for a form, you can use this to refer to the form. 
+     You can also use this.reset() to clear the form text field.
+     -When storing in local storage, you need to store things as strings (which would mean most likely JSON for you)
+     You can do this by calling localStorage.setItem('items', JSON.stringify(items)); The stringify converts the
+     object or array that you passed into JSON
+     -so to get it back, you can use JSON.parse(localStorage.getItem('items));
+     
+     
