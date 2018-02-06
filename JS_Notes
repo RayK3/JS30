@@ -113,5 +113,7 @@ Day 3:
      You can do this by calling localStorage.setItem('items', JSON.stringify(items)); The stringify converts the
      object or array that you passed into JSON
      -so to get it back, you can use JSON.parse(localStorage.getItem('items));
+ Day 16: 
+    -RegEx knowledge maybe: put whatever you want inside of these / /. You should go and learn this stuff
      
      
