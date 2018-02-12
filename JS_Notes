@@ -115,5 +115,11 @@ Day 3:
      -so to get it back, you can use JSON.parse(localStorage.getItem('items));
  Day 16: 
     -RegEx knowledge maybe: put whatever you want inside of these / /. You should go and learn this stuff
-     
+ 
+ 
+ Day 21: 
+    -The navigator.geolocation object can give all sorts of useful information about the position.
+ Day 22:
+    -If you are using some effect that depends on the location of the window, then you can use window.scrollX
+    and window.scrollY to correctly align the effects with the objects.
      
