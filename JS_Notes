@@ -122,4 +122,19 @@ Day 3:
  Day 22:
     -If you are using some effect that depends on the location of the window, then you can use window.scrollX
     and window.scrollY to correctly align the effects with the objects.
+ Day 25:
+    -When you add an event listener to an element in the DOM, it will trigger whenever that event is heard
+    anywhere on it, even if there are other elements on top. You can decide the order that the events will happen
+    based on different rules of capture
+    -This is called bubbling. The browser will trigger a click on what you clicked on, but it will also trigger
+    on everything above it in the tree as well.
+    -When an event is 'captured', the event is logged from top down in the tree, then the bubbling starts from
+    bottom to top
+    -you can add a third argument to the addEventListener function: an options object. You can set the options
+    object capture value to true, and the events will fire when they are being captured.
+        Another thing you can add to this options object is the key 'once' which you set to true. This will
+        listen for the event once, and then unbind itself. This is the equivalent of the removeEventListener function.
+    -In your actual function that you pass to the addEventListener, you can call e.stopPropagation(); This will
+    stop the capture from bubbling up.
+    
      
