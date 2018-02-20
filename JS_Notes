@@ -137,4 +137,13 @@ Day 3:
     -In your actual function that you pass to the addEventListener, you can call e.stopPropagation(); This will
     stop the capture from bubbling up.
     
+ Day 26:
+    -When you are using a callback function, the meaning of 'this' changes based on the type of function it is.
+    A normal callback function will change the value of this, but an arrow callback function will inherit
+    the this value from its parent.
+    -A lot of the time, when you are wanting to see an effect on some element of the DOM, it is best 
+    to add and remove classes, and then style the new classes. This will dynamically change webpages. 
+    -A lot of the time, you will have to use getBoundingClientRect to find the x and y values for the element,
+    and then you need to usually offset it by some other value to get it to fit. 
+    
      
