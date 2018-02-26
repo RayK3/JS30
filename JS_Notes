@@ -146,4 +146,7 @@ Day 3:
     -A lot of the time, you will have to use getBoundingClientRect to find the x and y values for the element,
     and then you need to usually offset it by some other value to get it to fit. 
     
+ Day 27:
+    -When you want to drag and drop something. You need to keep track of where you clicked in the mousedown
+    callback. You need to keep track of where you clicked, how far you scrolled, and whether the mouse is down.
      
